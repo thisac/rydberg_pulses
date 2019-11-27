@@ -1,0 +1,92 @@
+{
+    "CZ": {
+        "operation": "CZ",
+        "pulse_sequence": "CZ",
+        "opt_algorithm": "BOBYQA",
+        "density": false,
+        "num_of_tests": 0,
+        "num_of_evaluations": 20000,
+
+        "print_every": 1,
+        "verbose": true,
+        "save_data": false
+    },
+
+    "CCZ": {
+        "operation": "CCZ",
+        "pulse_sequence": "CCZ",
+        "opt_algorithm": "BOBYQA",
+        "density": false,
+        "num_of_tests": 0,
+        "num_of_evaluations": 20000,
+
+        "print_every": 1,
+        "verbose": true,
+        "save_data": false
+    },
+
+    "SWAP": {
+        "operation": "SWAP",
+        "pulse_sequence": "SWAP",
+        "opt_algorithm": "BOBYQA",
+        "density": false,
+        "num_of_tests": 0,
+        "num_of_evaluations": 20000,
+
+        "print_every": 10,
+        "verbose": true,
+        "save_data": false
+    },
+
+    "SWAP_SEP": {
+        "operation": "SWAP",
+        "pulse_sequence": "SWAP_SEP",
+        "opt_algorithm": "MLSL",
+        "density": false,
+        "num_of_tests": 0,
+        "num_of_evaluations": 0,
+
+        "print_every": 100,
+        "verbose": true,
+        "save_data": false
+    },
+
+    "CNOT": {
+        "operation": "CNOT",
+        "pulse_sequence": "CNOT",
+        "opt_algorithm": "BOBYQA",
+        "density": false,
+        "num_of_tests": 0,
+        "num_of_evaluations": 20000,
+
+        "print_every": 1,
+        "verbose": false,
+        "save_data": false
+    },
+
+    "CNOT_SEP": {
+        "operation": "CNOT",
+        "pulse_sequence": "CNOT_SEP",
+        "opt_algorithm": "BOBYQA",
+        "density": false,
+        "num_of_tests": 0,
+        "num_of_evaluations": 0,
+
+        "print_every": 1,
+        "verbose": true,
+        "save_data": false
+    },
+
+    "Toffoli": {
+        "operation": "Toffoli",
+        "pulse_sequence": "Toffoli",
+        "opt_algorithm": "BOBYQA",
+        "density": false,
+        "num_of_tests": 0,
+        "num_of_evaluations": 0,
+
+        "print_every": 1,
+        "verbose": true,
+        "save_data": false
+    }
+}
