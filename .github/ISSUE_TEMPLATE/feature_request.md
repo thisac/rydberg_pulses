@@ -2,19 +2,29 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ''
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+<!--
+Before posting a bug report
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+Search existing GitHub issues to make sure the issue does not already exist:
+https://github.com/xanaduai/pennylane/issues
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+For general technical details check out our documentation:
+https://pennylane.readthedocs.io
+-->
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+#### Feature request description
+
+Description of the feature request - include code snippets or screenshots
+showcasing the requested functionality here if possible. You may use the
+following template.
+
+* *Feature details:* (What feature would you like to have?)
+
+* *Implementation:* (Do you have an idea for how this could be implemented?)
+
+* *Urgency:* (How urgently would you need this feature? Is it blocking your work?)
