@@ -1,20 +1,8 @@
 name: Bug report
-about: Report a bug
 title: '[BUG]'
 labels: bug
-assignees: ''
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Before posting a bug report
-
-        Search existing GitHub issues to make sure the issue does not already exist:
-        https://github.com/xanaduai/pennylane/issues
-
-        For general technical details check out our documentation:
-        https://pennylane.readthedocs.io
   - type: textarea
     id: bug-report
     attributes:
@@ -39,7 +27,7 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: textarea
-    id: logs
+    id: info
     attributes:
       label: Additional information
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
