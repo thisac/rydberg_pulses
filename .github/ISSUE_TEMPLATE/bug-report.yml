@@ -41,6 +41,14 @@ body:
         What percentage of the time does it reproduce?
     validations:
       required: true
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System information
+      description: |
+        Post the output of `import pennylane as qml; qml.about()`
+    validations:
+      required: true
   - type: markdown
     id: additional-info
     attributes:
@@ -50,15 +58,9 @@ body:
   - type: textarea
     id: info
     attributes:
-      label: asdsa
-  - type: textarea
-    id: system-info
-    attributes:
-      label: System information
+      label: info
       description: |
-        Post the output of `import pennylane as qml; qml.about()`
-    validations:
-      required: true
+        Any additional information, configuration or data that might be necessary to reproduce the issue.
   - type: textarea
     id: logs
     attributes:
