@@ -8,14 +8,14 @@ body:
     id: description
     attributes:
       value: |
-          #### Before posting a bug report
+          # Before posting a bug report
           Search existing GitHub issues to make sure the issue does not already exist:
           https://github.com/xanaduai/pennylane/issues
           
           For general technical details check out our documentation:
           https://pennylane.readthedocs.io
           
-          #### Issue description
+          # Issue description
           Description of the issue - include code snippets and screenshots here if relevant.
   - type: textarea
     id: expected
@@ -42,6 +42,11 @@ body:
     validations:
       required: true
   - type: textarea
+    id: info
+    attributes:
+      label: Additional information
+      description: Please provide any additional information here.
+  - type: textarea
     id: system-info
     attributes:
       label: System information
@@ -55,14 +60,9 @@ body:
       label: Source code and tracebacks
       description: Please include any additional code snippets and error tracebacks related to the issue here. This will be automatically formatted into code, so no need for backticks.
       render: shell
-  - type: textarea
-    id: info
-    attributes:
-      label: Additional information
-      description: Please provide any additional information here.
   - type: checkboxes
     id: terms
     attributes:
       options:
-        - label: I have searched exisisting issues.
+        - label: I have searched exisisting GitHub issues to make sure the issue does not already exist.
           required: true
