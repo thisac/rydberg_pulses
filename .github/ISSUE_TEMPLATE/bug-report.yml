@@ -41,11 +41,14 @@ body:
         What percentage of the time does it reproduce?
     validations:
       required: true
+  - type: markdown
+    id: additional-info
+    attributes:
+      value: |
+          # Additional information
+          Please provide any additional information here.
   - type: textarea
     id: info
-    attributes:
-      label: Additional information
-      description: Please provide any additional information here.
   - type: textarea
     id: system-info
     attributes:
