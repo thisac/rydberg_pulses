@@ -8,6 +8,7 @@ body:
     id: description
     attributes:
       value:
+          """
           #### Before posting a bug report
           Search existing GitHub issues to make sure the issue does not already exist:
           https://github.com/xanaduai/pennylane/issues
@@ -17,6 +18,7 @@ body:
           
           #### Issue description
           Description of the issue - include code snippets and screenshots here if relevant.
+          """
   - type: textarea
     id: expected
     attributes:
