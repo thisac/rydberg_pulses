@@ -14,47 +14,22 @@ body:
           
           For general technical details check out our documentation:
           https://pennylane.readthedocs.io
-          
-          # Issue description
-          Description of the issue - include code snippets and screenshots here if relevant.
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
+      label: Issue description
       description: |
-        What you expect to happen?
-    validations:
-      required: true
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual behavior
-      description: |
-        What actually happens?
-    validations:
-      required: true
-  - type: textarea
-    id: reproduces
-    attributes:
-      label: Reproduces how often
-      description: |
-        What percentage of the time does it reproduce?
-    validations:
-      required: true
-  - type: textarea
-    id: system-info
-    attributes:
-      label: System information
-      description: |
-        Post the output of `import pennylane as qml; qml.about()`
-    validations:
-      required: true
-  - type: markdown
-    id: additional-info
-    attributes:
+        Description of the issue - include code snippets and screenshots here if relevant. You may use the following template.
       value: |
-          # Additional information
-          Please provide any additional information here.
+        * *Expected behavior:* (What you expect to happen)
+
+        * *Actual behavior:* (What actually happens)
+
+        * *Reproduces how often:* (What percentage of the time does it reproduce?)
+
+        * *System information:* (Post the output of `import pennylane as qml; qml.about()`)
+    validations:
+      required: true
   - type: textarea
     id: info
     attributes:
