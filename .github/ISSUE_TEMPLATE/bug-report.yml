@@ -4,35 +4,54 @@ title: '[BUG]'
 labels: bug
 
 body:
+  - type: markdown
+    id: description
+    value: |
+        #### Issue description
+        Description of the issue - include code snippets and screenshots here if relevant.
   - type: textarea
-    id: bug-report
+    id: expected
     attributes:
-      label: Issue description
+      label: Expected behavior
       description: |
-        Description of the issue - include code snippets and screenshots here if relevant. You may use the following template.
-      placeholder: Tell us what you see!
-      value: |
-        * *Expected behavior:* (What you expect to happen)
-        |
-        * *Actual behavior:* (What actually happens)
-        |
-        * *Reproduces how often:* (What percentage of the time does it reproduce?)
-        |
-        * *System information:* (Post the output of `import pennylane as qml; qml.about()`)
+        What you expect to happen
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: |
+        What actually happens
+    validations:
+      required: true
+  - type: textarea
+    id: reproduces
+    attributes:
+      label: Reproduces how often
+      description: |
+        What percentage of the time does it reproduce?
+    validations:
+      required: true
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System information
+      description: |
+        Post the output of `import pennylane as qml; qml.about()`
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
       label: Source code and tracebacks
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      description: Please include any additional code snippets and error tracebacks related to the issue here. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: textarea
     id: info
     attributes:
       label: Additional information
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      description: Please provide any additional information here.
   - type: checkboxes
     id: terms
     attributes:
