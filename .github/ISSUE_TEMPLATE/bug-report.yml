@@ -7,7 +7,14 @@ body:
   - type: markdown
     id: description
     attributes:
-      value: |
+      value:
+          #### Before posting a bug report
+          Search existing GitHub issues to make sure the issue does not already exist:
+          https://github.com/xanaduai/pennylane/issues
+          
+          For general technical details check out our documentation:
+          https://pennylane.readthedocs.io
+          
           #### Issue description
           Description of the issue - include code snippets and screenshots here if relevant.
   - type: textarea
@@ -56,13 +63,6 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Before posting a bug report
-      description: |
-        Search existing GitHub issues to make sure the issue does not already exist:
-        https://github.com/xanaduai/pennylane/issues
-        |
-        For general technical details check out our documentation:
-        https://pennylane.readthedocs.io
       options:
         - label: I have searched exisisting issues.
           required: true
