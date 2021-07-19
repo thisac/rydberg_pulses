@@ -49,6 +49,8 @@ body:
           Please provide any additional information here.
   - type: textarea
     id: info
+    attributes:
+      label:
   - type: textarea
     id: system-info
     attributes:
