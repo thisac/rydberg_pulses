@@ -30,16 +30,16 @@ body:
       label: Implementation
       description: |
         Do you have an idea for how this could be implemented? Please include those details here.
-- type: dropdown
-  id: urgency
-  attributes:
-    label: How urgently would you need this feature? Is it blocking your work?
-    options:
-      - 1: Not urgent. Would be nice to have.
-      - 2: Somewhat urgent. Should be in the next release.
-      - 3: Very urgent! Blocking important work.
-  validations:
-    required: true
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: How urgently would you need this feature? Is it blocking your work?
+      options:
+        - 1: Not urgent. Would be nice to have.
+        - 2: Somewhat urgent. Should be in the next release.
+        - 3: Very urgent! Blocking important work.
+    validations:
+      required: true
   - type: textarea
     id: info
     attributes:
