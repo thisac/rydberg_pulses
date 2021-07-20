@@ -36,7 +36,7 @@ body:
       label: How urgently would you need this feature?
       options:
         - "1: Not urgent. Would be nice to have."
-        - "2: Somewhat urgent. Should be in the next release."
+        - "2: Somewhat urgent. Needed this quarter."
         - "3: Very urgent! Blocking important work."
     validations:
       required: true
