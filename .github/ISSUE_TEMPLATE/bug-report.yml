@@ -8,26 +8,29 @@ body:
     id: description
     attributes:
       value: |
-          # Before posting a bug report
+          ## Before posting a bug report
           Search existing GitHub issues to make sure the issue does not already exist:
           https://github.com/xanaduai/pennylane/issues
-          
+
           For general technical details check out our documentation:
           https://pennylane.readthedocs.io
+
+          ## Issue description
+          Description of the issue - include code snippets and screenshots here if relevant.
   - type: textarea
     id: expected
     attributes:
-      label: Issue description
+      label: Expected behavior
       description: |
-        Description of the issue - include code snippets and screenshots here if relevant. You may use the following template.
-      value: |
-        * *Expected behavior:* (What you expect to happen)
-
-        * *Actual behavior:* (What actually happens)
-
-        * *Reproduces how often:* (What percentage of the time does it reproduce?)
-
-        * *System information:* (Post the output of `import pennylane as qml; qml.about()`)
+        What you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: |
+        What actually happens?
     validations:
       required: true
   - type: textarea
@@ -35,12 +38,18 @@ body:
     attributes:
       label: Additional information
       description: |
-        Any additional information, configuration or data that might be necessary to reproduce the issue.
+        Please provide any additional information here. Configuration or data that might be necessary to reproduce the issue. This included system information (Post the output of `import pennylane as qml; qml.about()`) or reproducibility (What percentage of the time does it reproduce?).
   - type: textarea
-    id: logs
+    id: sourcecode
     attributes:
-      label: Source code and tracebacks
-      description: Please include any additional code snippets and error tracebacks related to the issue here. This will be automatically formatted into code, so no need for backticks.
+      label: Source code
+      description: Please include any additional code snippets related to the issue here. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: textarea
+    id: tracebacks
+    attributes:
+      label:  Tracebacks
+      description: Please include the error tracebacks related to the issue here. This will be automatically formatted into code, so no need for backticks.
       render: shell
   - type: checkboxes
     id: terms
