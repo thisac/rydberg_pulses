@@ -33,11 +33,11 @@ body:
   - type: dropdown
     id: urgency
     attributes:
-      label: How urgently would you need this feature? Is it blocking your work?
+      label: How urgently would you need this feature?
       options:
-        - 1: Not urgent. Would be nice to have.
-        - 2: Somewhat urgent. Should be in the next release.
-        - 3: Very urgent! Blocking important work.
+        - "1: Not urgent. Would be nice to have."
+        - "2: Somewhat urgent. Should be in the next release."
+        - "3: Very urgent! Blocking important work."
     validations:
       required: true
   - type: textarea
